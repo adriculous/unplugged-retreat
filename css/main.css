@@ -464,6 +464,56 @@
 
   @media only screen and (min-width: 1200px) {
     /* Desktop styles here */
+
+    /* Desktop General */
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /* Desktop Header */
+      header {
+        padding: 15px 0;
+      }
+
+    /* Desktop Hero */
+      .hero-area h1 {
+        width: 80%;
+      }
+
+      /* Desktop Aside */
+      aside .content-wrapper {
+        justify-content: space-around;
+      }
+
+      aside .content-wrapper .form-description,
+      aside .content-wrapper .form {
+        width: 30%;
+      }
+
+      /* Desktop Features */
+      .features h2 {
+        width: 90%;
+      }
+
+      .features article {
+        flex-basis: 33%;
+      }
+
+      /* Desktop Reviews */
+      .reviews article div {
+        width: 42%;
+      }
+
+      /* ********** DESKTOP ABOUT PAGE ********** */
+      .mission h2,
+      .contact-section .content-wrapper h2 {
+        width: 95%;
+      }
+
+      /* ********** DESKTOP FAQ PAGE ********** */
+      .faq h2 {
+        width: 100%;
+      }
   }
   
   /* ==========================================================================
